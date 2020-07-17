@@ -28,8 +28,10 @@
   console.log(nodow);
   console.log(mnames[nodow]+"control");
 
-  //if statement for selection of male names
+//if statement that will switch according to the gender
 
+  if (gender==="Male") {
+    //if statement for selection of male names
   if(nodow===0)
    {yourname = mnames[0];
   	 console.log(yourname+"sunday");}
@@ -60,3 +62,39 @@
 
 
    else {console.log("Itdidntwork");}
+  }
+  else {
+    //if statement for selection of female names
+  if(nodow===0)
+   {yourname = fnames[0];
+  	 console.log(yourname+"sunday");}
+
+      else if (nodow===1)
+   {yourname = fnames[1];
+  	 console.log(yourname+"monday");}
+
+     else if (nodow===2)
+   {yourname = fnames[2];
+  	 console.log(yourname+"tuesday");}
+
+      else if (nodow==3)
+   {yourname = fnames[3];
+  	 console.log(yourname+"wednesday");}
+
+     else if (nodow==4)
+   {yourname = fnames[4];
+  	 console.log(yourname+"AB4UGA");}
+
+     else if (nodow==5)
+   {yourname = fnames[5];
+  	 console.log(yourname+"ABUG6A");}
+
+      else if (nodow==6)
+   {yourname = fnames[6];
+  	 console.log(yourname+"ABA");}
+
+
+   else {console.log("Itdidntwork");}
+
+
+  }
