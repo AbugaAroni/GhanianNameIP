@@ -1,9 +1,15 @@
+h1 {
+  text-align: center;
+}
+
 .introcontainer {
    border: 2px solid red;
    background-color: white;
-   padding: 12px;
+   padding: 20px;
    margin: 20px;
-   object-fit: contain'
+   object-fit: contain;
+   text-align: left;
+   overflow:hidden;
 }
 
 .formcontainer {
@@ -11,9 +17,20 @@
    background-color: white;
    padding: 12px;
    margin: 20px;
-   object-fit: contain'
+   object-fit: contain;
 }
 
 .ital {
   font-style: italic;
+}
+.hideoverflow{
+  float: right;
+  overflow:hidden;
+}
+
+.iimg {
+  max-width: 20%;
+  max-height: 20%
+  object-fit: cover;
+  float: right;
 }
