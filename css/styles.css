@@ -1,0 +1,19 @@
+.introcontainer {
+   border: 2px solid red;
+   background-color: white;
+   padding: 12px;
+   margin: 20px;
+   object-fit: contain'
+}
+
+.formcontainer {
+   border: 2px solid red;
+   background-color: white;
+   padding: 12px;
+   margin: 20px;
+   object-fit: contain'
+}
+
+.ital {
+  font-style: italic;
+}
