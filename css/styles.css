@@ -1,8 +1,12 @@
 h1 {
   text-align: center;
 }
+h2 {
+  text-align: center;
+}
 
 .introcontainer {
+
    border: 2px solid red;
    background-color: white;
    padding: 20px;
