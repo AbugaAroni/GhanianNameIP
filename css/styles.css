@@ -4,37 +4,33 @@ h1 {
 h2 {
   text-align: center;
 }
+body {
+  background-image: url("/aka-background.jpg");
+  background-color: #d4af37;
+}
 div {
   margin: auto;
+  border: 2px solid red;
+  margin-top: 2em;
   width: 60%;
-  float:
   background-color: white;
 }
 
 .introcontainer {
-
-   border: 2px solid red;
-   padding: 20px;
-   margin: 20px;
+   padding: 30px;
    object-fit: contain;
    overflow-x: hidden;
 }
 
 .expcontainer {
-
-   border: 2px solid red;
    padding: 20px;
-   margin: 20px;
    object-fit: contain;
    text-align: left;
    overflow:hidden;
 }
 
 .formcontainer {
-   border: 2px solid red;
-   background-color: white;
    padding: 12px;
-   margin: 20px;
    object-fit: contain;
 }
 
@@ -48,7 +44,7 @@ div {
 
 .iimg {
   max-width: 20%;
-  max-height: 20%
+  max-height: 20%;
   object-fit: cover;
   float: right;
   padding: 2px;
