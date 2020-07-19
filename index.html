@@ -3,6 +3,7 @@
   <head>
     <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
+      <script defer src="./js/scripts.js"> </script>
     <title>Ghanian Name Finder</title>
   </head>
   <body>
@@ -19,29 +20,39 @@
       <h2>Name finder</h2>
         <p>Instructions: Input your date of birth and gender into the form below. </p>
         <p class="ital">Don't worry about the day of the week. The program automatically finds the apporpriate week day. </p>
-          <form>
+
             <table>
               <tr>
-                <th> <label for="gender"> Gender </label> <br> </th>
-                <th> <label for="dob"> Date of Birth </label> <br> </th>
+                <th> Gender <br> </th>
+                <th>  Date of Birth  <br> </th>
                 <th> </th>
               </tr>
               <tr>
                 <td>
-                    <select id="gender" name"Gender">
-                      <option value="Male"> Male </option>
-                      <option value="Female"> Female  </option>
+                  <form id="nameform" >
+                    <p>
+                      <label> Select your gender </label>: <br>
+                      <select name="gender">
+                        <option value="Male"> Male </option>
+                        <option value="Female"> Female  </option>
+                    </p>
                 </td>
                 <td>
-                    <input type="date" id="dob" name="dob">
+                  <p>
+                      <label> Select your date of birth </label>: <br>
+                      <input type="date" name="dob">
+                  </p>
                 </td>
                 <td>
-                    <button type="button" onclick="">Submit</button>
+                  <p>
+                    <input type="submit" value="Submit">
+                  </p>
+                    </form>
                 </td>
               </table>
-          </form>
+
           <br>
-        <p> Here is your Akan name: </p>
+        <p> Here is your Akan name: </p> <p id="results"> </p>
     </div>
   </body>
 </html>
