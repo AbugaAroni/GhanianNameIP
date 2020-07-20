@@ -1,4 +1,4 @@
-# My Portfolio
+# My GhanianNameFinder
 
 ### Author: [Abuga Aroni] (https://github.com/AbugaAroni/)
 
